@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "3293889581",
+    "project_id": "dictionary-45478",
+    "storage_bucket": "dictionary-45478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3293889581:android:28abbe4a7ea6bf8bb964a4",
+        "android_client_info": {
+          "package_name": "com.example.dictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3293889581-k9fq7j7le1gmeq0nrlpsesihgfgjedps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr4IMCjVyZd7kQ_RhuKgjq_uSoEYLugRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3293889581-bp3j95acld5elag4p1ehau0ku8f4co3s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3293889581-h68qg563vbe0trm0q83t5b8000o8f402.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dictionary"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
