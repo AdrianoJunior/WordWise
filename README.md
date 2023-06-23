@@ -25,6 +25,37 @@ As tecnologias utilizadas no desenvolvimento do app foram:
 - [SQLite](https://pub.dev/packages/sqflite): SQLite é um sistema de gerenciamento de banco de dados relacional embutido, que não requer um servidor separado para funcionar. Ele oferece uma solução compacta, eficiente e confiável para armazenamento local de dados em aplicativos, sendo amplamente utilizado em diversos tipos de aplicações, desde dispositivos móveis até aplicações desktop. Nesta aplicação foi usado o sqflite, plugin para uso do SQLite com o Flutter.
 
 
+## Documentação
+
+### Processo de desenvolvimento
+
+Para desenvolver este aplicativo, separei algumas etapas a serem desenvolvidas:
+
+- Desenvolvimento da tela de introdução
+- Criação da lista de palavras em memória (utilizando json salvo localmente na pasta assets/json)
+- Desenvolvimento da tela de login e criação de conta
+- Criação do layout da tela principal com as tabs e drawer
+- Desenvolvimento da SplashPage
+- Desenvolvimento da tela com a lista de palavras
+- Desenvolvimento da tela com a resposta da API ou cache com a palavra selecionada
+- Desenvolvimento da página de favoritos
+- Desenvolvimento da página de histórico
+- Desenvolvimento do código para linkar o histórico e favoritos no [Firestore](https://firebase.google.com/docs/firestore?hl=pt-br) com o ID do usuário fornecido pelo [Firebase Authentication](https://firebase.google.com/docs/auth?hl=pt-br).
+- Upload para o GitHub
+- Atualização do README.md e commit final
+## Funcionalidades
+
+- Página de introdução
+- Login com email/senha
+- Listagem de palavras com busca e seleção
+- Página de detalhes da palavra selecionada
+- Reprodução em áudio da palavra selecionada (apenas na versão mobile)
+- Armazenamento em cache para buscas futuras mais rápidas
+- Página de palavras favoritas
+- Página de histórico
+- Multiplataforma
+
+
 ## Instalação
 Para instalar e utilizar o projeto em seu computador, siga os seguintes passos:
 
@@ -72,19 +103,6 @@ Após executar o comando "flutter pub get" para obter as dependências do seu pr
 - Para fazer alterações no código e visualizar as atualizações em tempo real, salve os arquivos modificados e o Flutter Hot Reload será acionado automaticamente, refletindo as alterações no aplicativo em execução.
 
 - Lembre-se de que essas são apenas etapas básicas e podem variar dependendo da configuração do seu projeto ou ambiente de desenvolvimento. Consulte a documentação oficial do Flutter para obter mais detalhes e opções avançadas de execução e depuração de aplicativos Flutter.
-## Funcionalidades
-
-- Página de introdução
-- Login com email/senha
-- Listagem de palavras com busca e seleção
-- Página de detalhes da palavra selecionada
-- Reprodução em áudio da palavra selecionada (apenas na versão mobile)
-- Armazenamento em cache para buscas futuras mais rápidas
-- Página de palavras favoritas
-- Página de histórico
-- Multiplataforma
-
-
 ## Stack utilizada
 
 **Front-end:** Flutter
@@ -97,3 +115,4 @@ Após executar o comando "flutter pub get" para obter as dependências do seu pr
 ## Autor
 
 - [@AdrianoJunior](https://www.github.com/AdrianoJunior)
+
