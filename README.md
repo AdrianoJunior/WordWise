@@ -4,7 +4,7 @@
 
 # WordWise
 
-O prejeto do app WordWise consiste em uma lista de palavras em inglês, onde é possível selecionar e consultar uma palavra na API https://www.wordsapi.com/, e funciona como um dicionário de fácil acesso em seu dispositivo.
+O prejeto do app WordWise consiste em uma lista de palavras em inglês, onde é possível selecionar e consultar uma palavra na [Words API](https://www.wordsapi.com/), e funciona como um dicionário de fácil acesso em seu dispositivo.
 Nele, é possível favoritar as palavras de seu interesse, para ter um acesso mais rápido a elas, além de contar com a função de histórico de pesquisa, onde é possível ver todas as palavras acessadas anteriormente, além de ser possível escutar a pronuncia as palavras selecionadas.
 
 O projeto pode ser acessado em sua versão web [aqui](https://dictionary-45478.web.app/#/).
